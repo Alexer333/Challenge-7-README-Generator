@@ -20,7 +20,6 @@ function renderLicenseSection(license) {
     return ``;
   } else {
     return `
-    ## License
     This project is licensed with ${license}`
   }
 }
@@ -29,6 +28,8 @@ function renderLicenseSection(license) {
             //Title, description, table of contents, installation, usage, license
 function generateMarkdown(data) {
   return `# ${data.title}
+
+  <img alt="Static Badge" src="https://img.shields.io/badge/License-${data.license}-green">
 
   ## Description
   ${data.description}

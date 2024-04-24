@@ -29,10 +29,9 @@ const questions = [
                 name: "usage"
             },
             {
-                type: "list", 
-                message: "What is the license for your project?",
+                type: "input", 
+                message: "What is the license for your project? e.g. MIT, Creative Commons, GNU...",
                 name: "license",
-                choices: ["MIT", ""]
             }
 ];
 
