@@ -3,6 +3,8 @@
 // TODO: Create an array of questions for user input
 
 const generateMarkdown = require('./utils/generateMarkdown');
+const inquirer = require('inquirer');
+const fs = require('fs');
 
 const questions = [
             //Title, description, table of contents, installation, usage, license
@@ -18,8 +20,19 @@ const questions = [
             },
             {
                 type: "input",
-                message: "What is the table of contents of your project?",
-                name: ""
+                message: "What is the installation process of your project?",
+                name: "installation"
+            },
+            {
+                type: "input",
+                message: "How does one use your project?",
+                name: "usage"
+            },
+            {
+                type: "list", 
+                message: "What is the license for your project?",
+                name: "license",
+                choices: ["MIT", ""]
             }
 ];
 
