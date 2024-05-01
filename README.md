@@ -3,7 +3,7 @@
   <img alt="Static Badge" src="https://img.shields.io/badge/License-MIT-green">
 
   ## Description
-  This is a README Generator that you can use to automatically generate a properly formatted README! This README was made with it. 
+  This is a README Generator that you can use to automatically generate a properly formatted README! 
 
   * [Installation](#installation) 
   * [Usage](#usage)
@@ -18,3 +18,11 @@
   ## License
   
     This project is licensed with MIT
+
+  ## Walkthrough
+https://youtu.be/gHnkAyJCOAw?si=AoUTStSR6RY-Sqkn
+
+  ## Contact Me!
+Have questions about the project? Contact me at: 
+  * alex.rybak333@gmail.com
+  * https://github.com/Alexer333
